@@ -36,3 +36,5 @@ replace (
 	gopkg.in/yaml.v2 v2.2.3 => gopkg.in/yaml.v2 v2.2.8
 	gopkg.in/yaml.v2 v2.2.4 => gopkg.in/yaml.v2 v2.2.8
 )
+
+replace github.com/awslabs/aws-lambda-go-api-proxy/httpadapter => github.com/reecerussell/aws-lambda-go-api-proxy v0.0.0-20221028202540-9942e72b3304
