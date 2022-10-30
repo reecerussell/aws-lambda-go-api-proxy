@@ -190,7 +190,7 @@ func (r *RequestAccessor) EventToRequest(req events.APIGatewayProxyRequest) (*ht
 		path += "?" + queryString
 	} else if len(req.QueryStringParameters) > 0 {
 		// Support `QueryStringParameters` for backward compatibility.
-		// https://github.com/awslabs/aws-lambda-go-api-proxy/issues/37
+		// https://github.com/reecerussell/aws-lambda-go-api-proxy/issues/37
 		queryString := ""
 		for q := range req.QueryStringParameters {
 			if queryString != "" {
